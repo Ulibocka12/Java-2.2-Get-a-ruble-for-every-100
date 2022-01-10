@@ -11,11 +11,10 @@ public class Main {
         if (bonusAccrualCondition) {
             bonus = replenishmentAmount / 100;
         }
-
         int amount = startingBalance + replenishmentAmount + bonus;
 
+        // Вывод сообщения
         System.out.println("Ваш баланс: " + amount);
         System.out.println("Начисленных бонусов: " + bonus);
-
     }
 }
